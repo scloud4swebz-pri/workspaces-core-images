@@ -2,7 +2,6 @@ ARG BASE_IMAGE="ubuntu:18.04"
 FROM $BASE_IMAGE AS install_tools
 ARG DISTRO=ubuntu
 
-MAINTAINER Kasm Tech "info@kasmweb.com"
 LABEL "com.kasmweb.image"="true"
 
 ### Install common tools
